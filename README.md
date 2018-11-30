@@ -6,16 +6,16 @@ This repository contains training material for the formats and API developed by 
 Run using Binder
 ----------------
 
-[Binder](https://mybinder.org/) (see [docs](https://mybinder.readthedocs.io/en/latest/)) allows you to run [Jupyter notebooks]() hosted on Github in an online executable environment.
-Thus, you do not need to install any libraries if you use this route. Just click in the logo below.  
+[Binder](https://mybinder.org/) (see [their documentation](https://mybinder.readthedocs.io/en/latest/)) allows you to run [Jupyter notebooks](http://jupyter.org/) hosted on Github 
+in an online executable environment. Thus, you do not need to install any libraries if you use this route. Just click in the logo below.  
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/CellMigStandOrg/CMSO-training/master)
 
 Run locally using Docker
 ------------------------
 
-In order to execute the notebooks, you can build the Dockerfile stored in the
-top-level of this repository
+In order to execute the notebooks locally, you can build the Dockerfile stored in the
+top-level of this repository:
 
 
     docker build -t cmso-jupyter .
